@@ -2,6 +2,3 @@ jdk:
   - openjdk11
 before_install:
   - ./gradlew clean
-build:
-  commands:
-    - ./gradlew assemble
